@@ -1,3 +1,7 @@
+html {
+  background-color: #F7F9FD;
+}
+
 body {
   color: #808D99;
   font-family: 'Open Sans', sans-serif;
@@ -44,13 +48,22 @@ header {
 }
 
 .body-middle {
+  margin: auto;
   text-align: center;
+  max-width: 80vw;
 }
 
 .container {
   max-width: 1440px;
   overflow-x: hidden;
   position: relative;
+}
+
+.intro-paragraph {
+  margin: 0 auto 80vh;
+  text-align: center;
+  width: 45%;
+  max-width: 800px;
 }
 
 .logo_img {
@@ -60,8 +73,11 @@ header {
 }
 
 .mockups_img {
-  max-width: 80vw;
+  margin: 0 auto 8em;
+  width: 100%;
+  max-width: 800px;
 }
+
 
 .purple_rectangle {
   background-image: linear-gradient(to right, #FF52BF, #9A52FF);
@@ -76,7 +92,6 @@ header {
   transform: rotate(53deg);
   width: 116vw;
   z-index: -1;
-  /* max-width: 1440px; */
 }
 
 .try_it_free_btn {
@@ -101,4 +116,19 @@ header {
   -webkit-box-shadow: inset 0 1px 10px 0 #7D7D7D;
   -moz-box-shadow: inset 0 1px 10px 0 #7D7D7D;
   box-shadow: inset 0 1px 10px 0 #7D7D7D;
+}
+
+.white_rectangle {
+  background-color: white;
+  -webkit-border-radius: 7rem;
+  -moz-border-radius: 7rem;
+  border-radius: 7.5vw;
+  height: 78vw;
+  max-height: 80%;
+  left: 0;
+  position: absolute;
+  top: 22vw;
+  transform: rotate(-30deg);
+  width: 116vw;
+  z-index: -2;
 }
