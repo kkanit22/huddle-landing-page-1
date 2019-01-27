@@ -103,7 +103,7 @@ header {
 }
 
 .intro-paragraph {
-  margin: 0 auto 30em;
+  margin: 0 auto 60%;
   text-align: center;
   width: 45%;
   max-width: 800px;
@@ -142,8 +142,8 @@ header {
 
 .purple_rectangle {
   background-image: linear-gradient(to right, #FF52BF, #9A52FF);
-  -webkit-border-radius: 7rem;
-  -moz-border-radius: 7rem;
+  -webkit-border-radius: 7.5vw;
+  -moz-border-radius: 7.5vw;
   border-radius: 7.5vw;
   height: 78vw;
   max-height: 80%;
@@ -202,4 +202,27 @@ header {
   transform: rotate(-30deg);
   width: 116vw;
   z-index: -2;
+}
+@media screen and (min-width: 1400px){
+  .purple_rectangle {
+    -webkit-border-radius: 108px;
+    -moz-border-radius: 108px;
+    border-radius: 108px;
+    height: 1123px;
+    left: 547px;
+    top: -230px;
+    width: 1670px;
+  }
+  .white_rectangle {
+    -webkit-border-radius: 108px;
+    -moz-border-radius: 108px;
+    border-radius: 108px;
+    height: 1123px;
+    left: 0;
+    position: absolute;
+    top: 10rem;
+    transform: rotate(-30deg);
+    width: 1670px;
+    z-index: -2;
+  }
 }
