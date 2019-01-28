@@ -8,6 +8,7 @@
   <title>Frontend Mentor | Huddle landing page with coded decorative elements</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
       <p class="body-text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
         Create connections with your users as you engage in genuine discussion.</p>
 
-      <div class="get_started_btn">Get Started For Free</div>
+      <div class="get_started_btn nudged-down">Get Started For Free</div>
     </section>
     <section class="body-middle">
       <div class="user-illustration-box"><img class="users-illustration" src="images/illustration-your-users.svg" alt="Users_Illustration_Img"></div>
@@ -55,29 +56,47 @@
       <div class="get_started_btn nudged-down">Get Started For Free</div>
     </section>
     <section class="body-bottom">
-      &copy; Copyright 2019 Huddle. All rights reserved.
+      <div class="white-logo-container">
+        <img class="white-logo" src="images/white-logo.svg" alt="white-logo">
+      </div>
+      <div class="legal">
+        <div class="legal-left">
+          <span class="fab fa-facebook-square"></span>
+          <span class="fab fa-instagram"></span>
+          <span class="fab fa-twitter-square"></span>
+          <p>&copy; Copyright 2019 Huddle. All rights reserved.</p>
+        </div>
+        <div class="legal-right">
+          <div class="legal-2">
+            <p>About Us</p>
+            <p>What We Do</p>
+            <p>FAQ</p>
+          </div>
 
-      About Us
-      What We Do
-      FAQ
+          <div class="legal-3">
+            <p>Career</p>
+            <p>Blog</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="legal-4">
+            <h3 class="subscribe">Subscribe</h3>
 
-      Career
-      Blog
-      Contact Us
-
-      Subscribe
-
-      To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-      send you spam or pass on your email address
-
-      Subscribe
+            <p>
+              To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+              send you spam or pass on your email address
+            </p>
+            <div><input class="email" type="email" name="email" value=""></div>
+            <div class="subscribe_btn">Subscribe</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
+    <hr>
     <footer>
       <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://kkanit22.github.io/">Karl Kanitsch</a>.
+        <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</span>
+        <span>Coded by <a href="https://kkanit22.github.io/">Karl Kanitsch</a>.</span>
       </p>
     </footer>
   </div>
