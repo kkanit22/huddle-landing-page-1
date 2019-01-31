@@ -106,6 +106,7 @@ p {
 }
 @media screen and (max-width: 600px) {
   .bottom-try-it-free {
+    padding: 5px;
     width: 90%;
     min-width: 0;
   }
