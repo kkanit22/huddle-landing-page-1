@@ -104,6 +104,12 @@ p {
   width: 45%;
   min-width: 350px;
 }
+@media screen and (max-width: 600px) {
+  .bottom-try-it-free {
+    width: 90%;
+    min-width: 0;
+  }
+}
 
 .container {
   max-width: 1440px;
